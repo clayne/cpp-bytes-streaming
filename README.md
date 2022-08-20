@@ -24,7 +24,7 @@ bool utils::CreateFileFromMemory(const std::string& desired_file_path, const cha
 
 Also reading it from memory
 ```cpp
-bool utils::ReadFileToMemory(const std::string& file_path, std::vector<uint8_t>* out_buffer)
+bool utils::ReadFileFromMemory(const std::string& file_path, std::vector<uint8_t>* out_buffer)
 {
 	std::ifstream file_ifstream(file_path, std::ios::binary);
 
