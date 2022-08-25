@@ -4,7 +4,7 @@ This is a simple "bytes-streaming" you can use for basically everything, it can 
 
 ### Credit
 
-* [TheCruZ](https://blog.cr4.sh/) - For the streaming method that i took from his project [here](https://github.com/TheCruZ/kdmapper).
+* [TheCruZ](https://blog.cr4.sh/) - For the streaming method that i took from his project [kdmapper](https://github.com/TheCruZ/kdmapper).
 
 ### Code
 
