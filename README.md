@@ -8,9 +8,8 @@ This is a simple "bytes-streaming" you can use for basically everything, it can 
 
 ### Code
 
+Here we create a function that will make a file from the memory using ofstream
 ```cpp
-
-/* Here we create a function that will make a file from the memory using ofstream */
 bool utils::Stream_W(const std::string& desired_file_path, const char* address, size_t size)
 {
 	std::ofstream file_ofstream(desired_file_path.c_str(), std::ios_base::out | std::ios_base::binary);
@@ -26,7 +25,7 @@ bool utils::Stream_W(const std::string& desired_file_path, const char* address, 
 }
 ```
 
-/* This function will be used to read from memory */
+This function will be used to read from memory
 ```cpp
 bool utils::Stream_R(const std::string& file_path, std::vector<uint8_t>* out_buffer)
 {
