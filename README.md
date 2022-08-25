@@ -1,4 +1,4 @@
-# bytes-streaming
+# Bytes-Streaming Project
 
 This is a simple "bytes-streaming" you can use for basically everything, it can be a loader or a software, this as been made for simple projects / for people that starts using C++, that means it's not protected at all from Reverse Engineering, or dumpers but still better than doing URLToDownloadFile.
 
