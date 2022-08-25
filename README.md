@@ -1,10 +1,12 @@
 # bytes-streaming
 
-simple bytes "streaming" if we can call it like that, i made.
-That's totally not protected from dumpers.
-Made for Educational Purpose Only.
+This is a simple "bytes-streaming" you can use for basically everything, it can be a loader or a software, this as been made for simple projects / for people that starts using C++, that means it's not protected at all from Reverse Engineering, or dumpers but still better than doing URLToDownloadFile.
 
-i made it by a simple creating file from memory, and streaming it.
+### Credit
+
+* [TheCruZ](https://blog.cr4.sh/) - For the streaming method that i took from his project [here](https://github.com/TheCruZ/kdmapper).
+
+### Code
 
 ```cpp
 bool utils::CreateFileFromMemory(const std::string& desired_file_path, const char* address, size_t size)
@@ -37,5 +39,3 @@ bool utils::ReadFileFromMemory(const std::string& file_path, std::vector<uint8_t
 	return true;
 }
 ```
-
-Credits: Kdmapper
